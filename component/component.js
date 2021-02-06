@@ -37,6 +37,6 @@ export default function ModalYoutube({visible,urlVideo,apiKey,title,onPress}) {
                     </Animated.View>
                 </View>
            }
-      </>
+        </>
     )
 }

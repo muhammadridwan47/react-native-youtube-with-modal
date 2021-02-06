@@ -5,7 +5,7 @@ export default function App() {
   const [status,setStatus] =  React.useState(false);
   return (
     <>
-      <Text onPress={() => status == true ? setStatus(false) : setStatus(true)}>Click</Text>
+      <Text onPress={() => status == true ? setStatus(false) : setStatus(true)}>Open Modal</Text>
         <ModalYoutube
             visible={status}
             apiKey="AIzaSyDVsEjZ8jNLMgzbQ1fljnSdidX_k6rYjpU"
